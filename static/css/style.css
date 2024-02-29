@@ -1,0 +1,39 @@
+/* Styling Paragraphs */
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+/* Style Level 2 Headers */
+h2 {
+    color: red;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+/* Styling Tables */
+table, td, th{
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    border-collapse: collapse;
+}
+
+/* Style paragraphs using an id */
+p#thirdparagraph {
+    color: purple;
+    text-decoration: underline;
+}
+
+
+/* Creat a new CSS rule block based off a class attribute */
+.mynewclass{
+    font-weight: Bold;
+    text-decoration: underline;
+}
+
+/*Create a new CSS rule block used for only image tags */
+img.logo {
+    width : 267px;
+    height : 72px;
+}
