@@ -14,6 +14,20 @@ def hello():
 @app.route('/about')
 def about_me():
     return render_template('about.html')
+@app.route('/about-css')
+def about_css():
+    return render_template('about-css.html')
+@app.route('/sample')
+def example():
+    return render_template('sample.html')
+
+@app.route('/membership')
+def member():
+    return render_template('membership.html')
+
+@app.route('/membertier')
+def tier():
+    return render_template('membertier.html')
 
 if __name__ == '__main__':
     app.run()
