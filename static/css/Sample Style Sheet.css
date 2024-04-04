@@ -1,0 +1,29 @@
+table, td, th {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+.parentdiv{
+    width: 1000px;
+}
+
+.spacediv{
+    width: 1000px;
+    height: 30px;
+}
+.spaceleft{
+    float: left;
+    display: inline;
+    width: 300px;
+}
+
+.spaceright{
+    width: 600px;
+    float: right; /* Add margin to create space between divs */
+}
+
+.greentext{
+    color: green;
+}
